@@ -1,87 +1,115 @@
-# UR5e Pick & Place Simulation (ROS 2 Humble + Gazebo + MoveIt)
+# UR5e Pick and Place with MoveIt 2
 
-Este repositorio contiene una guía y ejemplos básicos para simular el **UR5e** con **Gazebo (Ignition Gazebo Garden)** y planificar movimientos con **MoveIt 2**, como primer paso hacia una demo de **pick and place**.
+This package provides a simple example of a **pick-and-place pipeline** for the **UR5e robot** using **MoveIt 2** in ROS 2 Humble.  
+The node subscribes to a list of target poses, moves the robot to each target, and then returns to a predefined **home pose**.  
+The home pose is also published so it can be visualized in RViz.
 
 ---
 
-## 🛠️ Instalación
+## 📦 Installation
 
-Primero asegúrate de tener [ROS 2 Humble](https://docs.ros.org/en/humble/Installation.html) instalado.
+Clone this package into your ROS 2 workspace:
 
-### 1. Instalar dependencias de Universal Robots
+```bash
+cd ~/clearpath_ws/src
+git clone <your_repo_url> ur_pick_and_place
+```
+
+Make sure you have the required dependencies:
+
 ```bash
 sudo apt update
-sudo apt install ros-humble-ur
-```
-
-### 2. Instalar MoveIt 2
-```bash
-sudo apt install ros-humble-moveit
-```
-
-### 3. Instalar el simulador UR + Gazebo
-```bash
-sudo apt install ros-humble-ur-simulation-gz
+sudo apt install ros-humble-moveit ros-humble-ur-moveit-config ros-humble-ur-simulation-gz
 ```
 
 ---
 
-## ▶️ Lanzar la simulación
+## ⚙️ Build the package
 
-Con todo instalado, puedes lanzar el UR5e en Gazebo con MoveIt 2 ya configurado:
+From the workspace root:
+
+```bash
+cd ~/clearpath_ws
+colcon build --packages-select ur_pick_and_place
+source install/setup.bash
+```
+
+---
+
+## ▶️ Run the simulation
+
+Start the UR5e robot with MoveIt in Gazebo:
 
 ```bash
 ros2 launch ur_simulation_gz ur_sim_moveit.launch.py ur_type:=ur5e
 ```
 
-Esto arranca:
-- **Gazebo** con el UR5e
-- **ros2_control** con los controladores necesarios
-- **MoveIt 2** con RViz2 para planificar trayectorias
-
 ---
 
-## 📡 Verificación
+## ▶️ Run the pick-and-place node
 
-### 1. Revisa que los controladores estén cargados:
+In another terminal:
+
 ```bash
-ros2 control list_controllers
+source ~/clearpath_ws/install/setup.bash
+ros2 run ur_pick_and_place pick_place_node
 ```
 
-Deberías ver algo como:
+You should see logs such as:
+
 ```
-joint_state_broadcaster [active]
-scaled_joint_trajectory_controller [active]
+[INFO] [pick_place_node]: PickPlaceNode ready. Waiting for poses on /goal_poses...
 ```
 
-### 2. Comprueba que se publiquen los `joint_states`:
+---
+
+## 📨 Publish goal poses
+
+To test the pipeline, publish some poses to the `/goal_poses` topic:
+
 ```bash
-ros2 topic echo /joint_states --once
+ros2 topic pub /goal_poses geometry_msgs/PoseArray "{
+  header: {frame_id: 'base_link'},
+  poses: [
+    {position: {x: 0.4, y: 0.2, z: 0.2}, orientation: {w: 1.0}},
+    {position: {x: 0.4, y: -0.2, z: 0.2}, orientation: {w: 1.0}}
+  ]
+}"
 ```
 
----
-
-## 🤖 Primeros pasos en MoveIt
-
-1. En **RViz2**, selecciona la pestaña **Motion Planning**.  
-2. Define una **pose objetivo** para el efector final del UR5e.  
-3. Pulsa **Plan** para generar la trayectoria.  
-4. Pulsa **Execute** para que el robot simulado en Gazebo ejecute el movimiento.  
+The robot will move to each target pose and then return to the **home pose**, waiting 3 seconds at each stop.
 
 ---
 
-## 🧩 Próximos pasos: Pick & Place
+## 📊 RViz Visualization
 
-Este repositorio se ampliará con:
+Launch RViz with MoveIt (this is included in the Gazebo launch).  
+The home pose is published on `/home_pose` as a `PoseStamped`, so you can add a **Pose display** in RViz to visualize it.
 
-- Un **plugin de Gazebo** para objetos a manipular.  
-- **Scene Objects** en MoveIt para que el UR5e planifique evitando colisiones.  
-- Un ejemplo de **pick & place** simple (mover un cubo de A → B).  
+You can also load the RViz configuration provided in the [`config/`](config/) folder  
+(e.g., `pick_and_place.rviz`) to quickly reproduce the scene shown below:
+
+
+Example screenshot:
+
+![Pick and Place in RViz](config/rviz_screenshot.png)
 
 ---
 
-## 📚 Recursos útiles
+## 📌 Features
 
-- [Universal Robots ROS 2 Driver](https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver)  
-- [MoveIt 2 Tutorials](https://moveit.picknik.ai/humble/index.html)  
-- [Ignition Gazebo](https://gazebosim.org/home)  
+- Reads an array of goal poses from `/goal_poses`.  
+- Moves to each pose using MoveIt’s `MoveGroupInterface`.  
+- Returns to a predefined **home pose** after each target.  
+- Publishes the **home pose** periodically on `/home_pose`.  
+- Waits **3 seconds** at each target and at home.  
+
+---
+
+## 🛠️ Next steps
+
+- Improve trajectory generation (smoother paths, optimized execution time).  
+- Adapt the type of pose array depending on external conditions (e.g., fruit maturity classification).  
+- Include object descriptions in the planning scene (e.g., the box/container where fruit will be deposited).  
+- Integrate ArUco or YOLO-based perception to generate dynamic pick targets.  
+- Extend the code to grasp objects with a UR end-effector.

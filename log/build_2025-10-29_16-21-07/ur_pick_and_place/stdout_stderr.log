@@ -1,0 +1,40 @@
+[35m[1mConsolidate compiler generated dependencies of target pick_and_place[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable pick_and_place[0m
+[ 50%] Built target pick_and_place
+[ 50%] Built target ament_cmake_python_symlink_ur_pick_and_place
+[100%] Built target go_home_node
+running egg_info
+writing ur_pick_and_place.egg-info/PKG-INFO
+writing dependency_links to ur_pick_and_place.egg-info/dependency_links.txt
+writing top-level names to ur_pick_and_place.egg-info/top_level.txt
+reading manifest file 'ur_pick_and_place.egg-info/SOURCES.txt'
+writing manifest file 'ur_pick_and_place.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_ur_pick_and_place_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/lib/ur_pick_and_place/pick_and_place
+-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/lib/ur_pick_and_place/go_home_node
+-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/pythonpath.sh
+-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/local/lib/python3.10/dist-packages/ur_pick_and_place-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/local/lib/python3.10/dist-packages/ur_pick_and_place-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/local/lib/python3.10/dist-packages/ur_pick_and_place-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/local/lib/python3.10/dist-packages/ur_pick_and_place-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/local/lib/python3.10/dist-packages/ur_pick_and_place/__init__.py
+-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ament_index/resource_index/package_run_dependencies/ur_pick_and_place
+-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ament_index/resource_index/parent_prefix_path/ur_pick_and_place
+-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/path.sh
+-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/path.dsv
+-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/local_setup.bash
+-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/local_setup.sh
+-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/local_setup.zsh
+-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/local_setup.dsv
+-- Symlinking: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/package.dsv
+-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ament_index/resource_index/packages/ur_pick_and_place
+-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/cmake/ur_pick_and_placeConfig.cmake
+-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/cmake/ur_pick_and_placeConfig-version.cmake
+-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/package.xml
+Listing '/home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/local/lib/python3.10/dist-packages/ur_pick_and_place'...

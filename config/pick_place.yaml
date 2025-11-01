@@ -1,0 +1,11 @@
+pick_place_node:
+  ros__parameters:
+    use_named_home: true       # set false to always use joint fallback
+    home_named: "home"         # must exist in SRDF if use_named_home=true
+    home_joints: [0.0, -1.5708, 1.5708, 0.0, 1.5708, 0.0]
+    group_name: "manipulator"
+    base_frame: "base_link"
+    eef_link: "tool0"
+    velocity_scaling: 0.2
+    acceleration_scaling: 0.2
+    dwell_seconds: 2

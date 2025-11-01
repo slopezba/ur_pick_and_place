@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/pick_and_place" "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/go_home_node" "TARGETS" "pick_and_place" "go_home_node" "DESTINATION" "lib/ur_pick_and_place")

@@ -1,0 +1,13 @@
+/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/uninstall.dir
+/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/ur_pick_and_place_uninstall.dir
+/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/pick_and_place.dir
+/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/go_home_node.dir
+/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/ament_cmake_python_symlink_ur_pick_and_place.dir
+/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/ament_cmake_python_build_ur_pick_and_place_egg.dir
+/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/test.dir
+/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/edit_cache.dir
+/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/rebuild_cache.dir
+/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/list_install_components.dir
+/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/install.dir
+/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/install/local.dir
+/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/install/strip.dir

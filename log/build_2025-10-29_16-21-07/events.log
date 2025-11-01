@@ -1,0 +1,255 @@
+[0.000000] (-) TimerEvent: {}
+[0.001266] (ur_pick_and_place) JobQueued: {'identifier': 'ur_pick_and_place', 'dependencies': OrderedDict()}
+[0.001363] (ur_pick_and_place) JobStarted: {'identifier': 'ur_pick_and_place'}
+[0.023038] (ur_pick_and_place) JobProgress: {'identifier': 'ur_pick_and_place', 'progress': 'cmake'}
+[0.023986] (ur_pick_and_place) JobProgress: {'identifier': 'ur_pick_and_place', 'progress': 'build'}
+[0.026333] (ur_pick_and_place) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place', '--', '-j4', '-l4'], 'cwd': '/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agrobotics'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/agrobotics'), ('OLDPWD', '/home/agrobotics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '9871'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'agrobotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'agrobotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/agrobotics:@/tmp/.ICE-unix/9702,unix/agrobotics:/tmp/.ICE-unix/9702'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb02ba31_5291_4e40_a84e_26f082313f37'), ('GNOME_SETUP_DISPLAY', ':3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':2'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MR2DF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5ea13c01-9f6b-417a-96a6-520639f653d6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.103467] (-) TimerEvent: {}
+[0.203743] (-) TimerEvent: {}
+[0.208636] (ur_pick_and_place) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pick_and_place\x1b[0m\n'}
+[0.251173] (ur_pick_and_place) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o\x1b[0m\n'}
+[0.304324] (-) TimerEvent: {}
+[0.406337] (-) TimerEvent: {}
+[0.506618] (-) TimerEvent: {}
+[0.606892] (-) TimerEvent: {}
+[0.707364] (-) TimerEvent: {}
+[0.809223] (-) TimerEvent: {}
+[0.909545] (-) TimerEvent: {}
+[1.009815] (-) TimerEvent: {}
+[1.110204] (-) TimerEvent: {}
+[1.210549] (-) TimerEvent: {}
+[1.310832] (-) TimerEvent: {}
+[1.411186] (-) TimerEvent: {}
+[1.511525] (-) TimerEvent: {}
+[1.611838] (-) TimerEvent: {}
+[1.712145] (-) TimerEvent: {}
+[1.812503] (-) TimerEvent: {}
+[1.912788] (-) TimerEvent: {}
+[2.013095] (-) TimerEvent: {}
+[2.115239] (-) TimerEvent: {}
+[2.215588] (-) TimerEvent: {}
+[2.318221] (-) TimerEvent: {}
+[2.418546] (-) TimerEvent: {}
+[2.518879] (-) TimerEvent: {}
+[2.619566] (-) TimerEvent: {}
+[2.721800] (-) TimerEvent: {}
+[2.828218] (-) TimerEvent: {}
+[2.928516] (-) TimerEvent: {}
+[3.028947] (-) TimerEvent: {}
+[3.133288] (-) TimerEvent: {}
+[3.233566] (-) TimerEvent: {}
+[3.333911] (-) TimerEvent: {}
+[3.434490] (-) TimerEvent: {}
+[3.537154] (-) TimerEvent: {}
+[3.637650] (-) TimerEvent: {}
+[3.741047] (-) TimerEvent: {}
+[3.842612] (-) TimerEvent: {}
+[3.943819] (-) TimerEvent: {}
+[4.046284] (-) TimerEvent: {}
+[4.146767] (-) TimerEvent: {}
+[4.248372] (-) TimerEvent: {}
+[4.354489] (-) TimerEvent: {}
+[4.454845] (-) TimerEvent: {}
+[4.555169] (-) TimerEvent: {}
+[4.655605] (-) TimerEvent: {}
+[4.757004] (-) TimerEvent: {}
+[4.858982] (-) TimerEvent: {}
+[4.959643] (-) TimerEvent: {}
+[5.060971] (-) TimerEvent: {}
+[5.161266] (-) TimerEvent: {}
+[5.261876] (-) TimerEvent: {}
+[5.362375] (-) TimerEvent: {}
+[5.462797] (-) TimerEvent: {}
+[5.564461] (-) TimerEvent: {}
+[5.664734] (-) TimerEvent: {}
+[5.766531] (-) TimerEvent: {}
+[5.869644] (-) TimerEvent: {}
+[5.969911] (-) TimerEvent: {}
+[6.070270] (-) TimerEvent: {}
+[6.171733] (-) TimerEvent: {}
+[6.273347] (-) TimerEvent: {}
+[6.373899] (-) TimerEvent: {}
+[6.475135] (-) TimerEvent: {}
+[6.576342] (-) TimerEvent: {}
+[6.676781] (-) TimerEvent: {}
+[6.777745] (-) TimerEvent: {}
+[6.879735] (-) TimerEvent: {}
+[6.981707] (-) TimerEvent: {}
+[7.082055] (-) TimerEvent: {}
+[7.183017] (-) TimerEvent: {}
+[7.284237] (-) TimerEvent: {}
+[7.384544] (-) TimerEvent: {}
+[7.484828] (-) TimerEvent: {}
+[7.586211] (-) TimerEvent: {}
+[7.687755] (-) TimerEvent: {}
+[7.789594] (-) TimerEvent: {}
+[7.889867] (-) TimerEvent: {}
+[7.990318] (-) TimerEvent: {}
+[8.090686] (-) TimerEvent: {}
+[8.191179] (-) TimerEvent: {}
+[8.292373] (-) TimerEvent: {}
+[8.393298] (-) TimerEvent: {}
+[8.493603] (-) TimerEvent: {}
+[8.594625] (-) TimerEvent: {}
+[8.694930] (-) TimerEvent: {}
+[8.797050] (-) TimerEvent: {}
+[8.897683] (-) TimerEvent: {}
+[8.998649] (-) TimerEvent: {}
+[9.099041] (-) TimerEvent: {}
+[9.201327] (-) TimerEvent: {}
+[9.301828] (-) TimerEvent: {}
+[9.402578] (-) TimerEvent: {}
+[9.504371] (-) TimerEvent: {}
+[9.606589] (-) TimerEvent: {}
+[9.706935] (-) TimerEvent: {}
+[9.807350] (-) TimerEvent: {}
+[9.908344] (-) TimerEvent: {}
+[10.008740] (-) TimerEvent: {}
+[10.109136] (-) TimerEvent: {}
+[10.210478] (-) TimerEvent: {}
+[10.312795] (-) TimerEvent: {}
+[10.413102] (-) TimerEvent: {}
+[10.513610] (-) TimerEvent: {}
+[10.614441] (-) TimerEvent: {}
+[10.716486] (-) TimerEvent: {}
+[10.817824] (-) TimerEvent: {}
+[10.919936] (-) TimerEvent: {}
+[11.020325] (-) TimerEvent: {}
+[11.122355] (-) TimerEvent: {}
+[11.222637] (-) TimerEvent: {}
+[11.322904] (-) TimerEvent: {}
+[11.424672] (-) TimerEvent: {}
+[11.525321] (-) TimerEvent: {}
+[11.626007] (-) TimerEvent: {}
+[11.726551] (-) TimerEvent: {}
+[11.828342] (-) TimerEvent: {}
+[11.930326] (-) TimerEvent: {}
+[12.031753] (-) TimerEvent: {}
+[12.132030] (-) TimerEvent: {}
+[12.232517] (-) TimerEvent: {}
+[12.333318] (-) TimerEvent: {}
+[12.438557] (-) TimerEvent: {}
+[12.538990] (-) TimerEvent: {}
+[12.639291] (-) TimerEvent: {}
+[12.739636] (-) TimerEvent: {}
+[12.840007] (-) TimerEvent: {}
+[12.940752] (-) TimerEvent: {}
+[13.042453] (-) TimerEvent: {}
+[13.142754] (-) TimerEvent: {}
+[13.243095] (-) TimerEvent: {}
+[13.343391] (-) TimerEvent: {}
+[13.444738] (-) TimerEvent: {}
+[13.545500] (-) TimerEvent: {}
+[13.649604] (-) TimerEvent: {}
+[13.749872] (-) TimerEvent: {}
+[13.852761] (-) TimerEvent: {}
+[13.953024] (-) TimerEvent: {}
+[14.058344] (-) TimerEvent: {}
+[14.158684] (-) TimerEvent: {}
+[14.260405] (-) TimerEvent: {}
+[14.360774] (-) TimerEvent: {}
+[14.461404] (-) TimerEvent: {}
+[14.561848] (-) TimerEvent: {}
+[14.663260] (-) TimerEvent: {}
+[14.766341] (-) TimerEvent: {}
+[14.866664] (-) TimerEvent: {}
+[14.967774] (-) TimerEvent: {}
+[15.069938] (-) TimerEvent: {}
+[15.170565] (-) TimerEvent: {}
+[15.272852] (-) TimerEvent: {}
+[15.374355] (-) TimerEvent: {}
+[15.474750] (-) TimerEvent: {}
+[15.575234] (-) TimerEvent: {}
+[15.675681] (-) TimerEvent: {}
+[15.776118] (-) TimerEvent: {}
+[15.876645] (-) TimerEvent: {}
+[15.977353] (-) TimerEvent: {}
+[16.080209] (-) TimerEvent: {}
+[16.180499] (-) TimerEvent: {}
+[16.280951] (-) TimerEvent: {}
+[16.384258] (-) TimerEvent: {}
+[16.484613] (-) TimerEvent: {}
+[16.585003] (-) TimerEvent: {}
+[16.685447] (-) TimerEvent: {}
+[16.785833] (-) TimerEvent: {}
+[16.886111] (-) TimerEvent: {}
+[16.986559] (-) TimerEvent: {}
+[17.087693] (-) TimerEvent: {}
+[17.187973] (-) TimerEvent: {}
+[17.289189] (-) TimerEvent: {}
+[17.389855] (-) TimerEvent: {}
+[17.491631] (-) TimerEvent: {}
+[17.592335] (-) TimerEvent: {}
+[17.693783] (-) TimerEvent: {}
+[17.794063] (-) TimerEvent: {}
+[17.896532] (-) TimerEvent: {}
+[17.996813] (-) TimerEvent: {}
+[18.097113] (-) TimerEvent: {}
+[18.197566] (-) TimerEvent: {}
+[18.297853] (-) TimerEvent: {}
+[18.399109] (-) TimerEvent: {}
+[18.500832] (-) TimerEvent: {}
+[18.601239] (-) TimerEvent: {}
+[18.695458] (ur_pick_and_place) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable pick_and_place\x1b[0m\n'}
+[18.701329] (-) TimerEvent: {}
+[18.801825] (-) TimerEvent: {}
+[18.903029] (-) TimerEvent: {}
+[19.004211] (-) TimerEvent: {}
+[19.104495] (-) TimerEvent: {}
+[19.204793] (-) TimerEvent: {}
+[19.306214] (-) TimerEvent: {}
+[19.406510] (-) TimerEvent: {}
+[19.507866] (-) TimerEvent: {}
+[19.608209] (-) TimerEvent: {}
+[19.708790] (-) TimerEvent: {}
+[19.809186] (-) TimerEvent: {}
+[19.819801] (ur_pick_and_place) StdoutLine: {'line': b'[ 50%] Built target pick_and_place\n'}
+[19.871143] (ur_pick_and_place) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_symlink_ur_pick_and_place\n'}
+[19.909342] (-) TimerEvent: {}
+[19.943903] (ur_pick_and_place) StdoutLine: {'line': b'[100%] Built target go_home_node\n'}
+[20.011408] (-) TimerEvent: {}
+[20.114635] (-) TimerEvent: {}
+[20.214897] (-) TimerEvent: {}
+[20.319148] (-) TimerEvent: {}
+[20.350919] (ur_pick_and_place) StdoutLine: {'line': b'running egg_info\n'}
+[20.351764] (ur_pick_and_place) StdoutLine: {'line': b'writing ur_pick_and_place.egg-info/PKG-INFO\n'}
+[20.352017] (ur_pick_and_place) StdoutLine: {'line': b'writing dependency_links to ur_pick_and_place.egg-info/dependency_links.txt\n'}
+[20.352888] (ur_pick_and_place) StdoutLine: {'line': b'writing top-level names to ur_pick_and_place.egg-info/top_level.txt\n'}
+[20.356891] (ur_pick_and_place) StdoutLine: {'line': b"reading manifest file 'ur_pick_and_place.egg-info/SOURCES.txt'\n"}
+[20.357078] (ur_pick_and_place) StdoutLine: {'line': b"writing manifest file 'ur_pick_and_place.egg-info/SOURCES.txt'\n"}
+[20.405363] (ur_pick_and_place) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_ur_pick_and_place_egg\n'}
+[20.419235] (-) TimerEvent: {}
+[20.429793] (ur_pick_and_place) CommandEnded: {'returncode': 0}
+[20.430658] (ur_pick_and_place) JobProgress: {'identifier': 'ur_pick_and_place', 'progress': 'install'}
+[20.448360] (ur_pick_and_place) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place'], 'cwd': '/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agrobotics'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/agrobotics'), ('OLDPWD', '/home/agrobotics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '9871'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'agrobotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'agrobotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/agrobotics:@/tmp/.ICE-unix/9702,unix/agrobotics:/tmp/.ICE-unix/9702'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb02ba31_5291_4e40_a84e_26f082313f37'), ('GNOME_SETUP_DISPLAY', ':3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':2'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MR2DF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5ea13c01-9f6b-417a-96a6-520639f653d6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[20.475846] (ur_pick_and_place) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.476049] (ur_pick_and_place) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[20.477066] (ur_pick_and_place) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/lib/ur_pick_and_place/pick_and_place\n'}
+[20.477410] (ur_pick_and_place) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/lib/ur_pick_and_place/go_home_node\n'}
+[20.477497] (ur_pick_and_place) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/pythonpath.sh\n'}
+[20.477573] (ur_pick_and_place) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/pythonpath.dsv\n'}
+[20.481042] (ur_pick_and_place) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/local/lib/python3.10/dist-packages/ur_pick_and_place-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[20.481252] (ur_pick_and_place) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/local/lib/python3.10/dist-packages/ur_pick_and_place-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[20.481524] (ur_pick_and_place) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/local/lib/python3.10/dist-packages/ur_pick_and_place-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[20.481672] (ur_pick_and_place) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/local/lib/python3.10/dist-packages/ur_pick_and_place-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[20.481755] (ur_pick_and_place) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/local/lib/python3.10/dist-packages/ur_pick_and_place/__init__.py\n'}
+[20.482095] (ur_pick_and_place) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ament_index/resource_index/package_run_dependencies/ur_pick_and_place\n'}
+[20.482218] (ur_pick_and_place) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ament_index/resource_index/parent_prefix_path/ur_pick_and_place\n'}
+[20.482643] (ur_pick_and_place) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/ament_prefix_path.sh\n'}
+[20.482741] (ur_pick_and_place) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/ament_prefix_path.dsv\n'}
+[20.483254] (ur_pick_and_place) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/path.sh\n'}
+[20.483358] (ur_pick_and_place) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/path.dsv\n'}
+[20.483445] (ur_pick_and_place) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/local_setup.bash\n'}
+[20.483755] (ur_pick_and_place) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/local_setup.sh\n'}
+[20.484458] (ur_pick_and_place) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/local_setup.zsh\n'}
+[20.484627] (ur_pick_and_place) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/local_setup.dsv\n'}
+[20.484827] (ur_pick_and_place) StdoutLine: {'line': b'-- Symlinking: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/package.dsv\n'}
+[20.501936] (ur_pick_and_place) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ament_index/resource_index/packages/ur_pick_and_place\n'}
+[20.503133] (ur_pick_and_place) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/cmake/ur_pick_and_placeConfig.cmake\n'}
+[20.503688] (ur_pick_and_place) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/cmake/ur_pick_and_placeConfig-version.cmake\n'}
+[20.503782] (ur_pick_and_place) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/package.xml\n'}
+[20.520216] (-) TimerEvent: {}
+[20.556209] (ur_pick_and_place) StdoutLine: {'line': b"Listing '/home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/local/lib/python3.10/dist-packages/ur_pick_and_place'...\n"}
+[20.557646] (ur_pick_and_place) CommandEnded: {'returncode': 0}
+[20.584338] (ur_pick_and_place) JobEnded: {'identifier': 'ur_pick_and_place', 'rc': 0}
+[20.585777] (-) EventReactorShutdown: {}

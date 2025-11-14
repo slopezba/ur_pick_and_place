@@ -1,1 +1,1 @@
-/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_core/ur_pick_and_placeConfig.cmake
+/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_core/ur_pick_and_placeConfig.cmake

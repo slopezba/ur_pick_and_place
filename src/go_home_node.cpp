@@ -15,7 +15,7 @@ public:
   GoHomeNode() : rclcpp::Node("go_home_node")
   {
     // ── Parameters ──────────────────────────────────────────────────────────────
-    group_name_     = this->declare_parameter<std::string>("group_name", "manipulator");
+    group_name_     = this->declare_parameter<std::string>("group_name", "ur_manipulator");
     base_frame_     = this->declare_parameter<std::string>("base_frame", "base_link");
     eef_link_       = this->declare_parameter<std::string>("eef_link", "tool0");  // "" = use SRDF default
     home_named_     = this->declare_parameter<std::string>("home_named", "home");

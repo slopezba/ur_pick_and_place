@@ -25,7 +25,7 @@ public:
     eef_link_        = this->declare_parameter<std::string>("eef_link", "tool0");   // "" → SRDF default
     v_scale_         = this->declare_parameter<double>("velocity_scaling", 0.8);
     a_scale_         = this->declare_parameter<double>("acceleration_scaling", 0.8);
-    dwell_sec_       = this->declare_parameter<int>("dwell_seconds", 3);
+    dwell_sec_       = this->declare_parameter<int>("dwell_seconds", 1);
     home_named_      = this->declare_parameter<std::string>("home_named", "home");
     use_named_home_  = this->declare_parameter<bool>("use_named_home", true);
 

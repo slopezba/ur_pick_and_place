@@ -1,8 +1,8 @@
-# Install script for directory: /home/agrobotics/Documents/ur_pick_and_place
+# Install script for directory: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place")
+  set(CMAKE_INSTALL_PREFIX "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,15 +43,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(
-        COMMAND
-        "/usr/bin/python3" "-m" "compileall"
-        "/home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/local/lib/python3.10/dist-packages/ur_pick_and_place"
-      )
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_pick_and_place" TYPE DIRECTORY FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/launch" FILES_MATCHING REGEX "/[^/]*\\.launch\\.py$")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -62,5 +58,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

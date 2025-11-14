@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agrobotics/Documents/ur_pick_and_place
+CMAKE_SOURCE_DIR = "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place
+CMAKE_BINARY_DIR = "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place"
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agrobotics/Documents/ur_pick_and_place /home/agrobotics/Documents/ur_pick_and_place /home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place /home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place /home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place" "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place" "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place" "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place" "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/uninstall.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

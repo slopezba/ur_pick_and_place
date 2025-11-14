@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/agrobotics/Documents/ur_pick_and_place/install/ur_pick_and_place/${destination}")
+      set(destination "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -310,59 +310,47 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "pick_and_place" "go_home_node" "DESTINATION" "lib/ur_pick_and_place")
-include("/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+# install("TARGETS" "pick_and_place" "go_home_node" "add_box_obstacle" "DESTINATION" "lib/ur_pick_and_place")
+include("/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/ur_pick_and_place/environment")
-ament_cmake_symlink_install_files("/home/agrobotics/Documents/ur_pick_and_place" FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/ur_pick_and_place/environment")
+# install(FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ur_pick_and_place" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place" FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ur_pick_and_place" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/ur_pick_and_place/environment")
-ament_cmake_symlink_install_files("/home/agrobotics/Documents/ur_pick_and_place" FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/ur_pick_and_place/environment")
-
-# install(DIRECTORY "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_python/ur_pick_and_place/ur_pick_and_place.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/ur_pick_and_place-0.0.0-py3.10.egg-info")
-ament_cmake_symlink_install_directory("/home/agrobotics/Documents/ur_pick_and_place" DIRECTORY "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_python/ur_pick_and_place/ur_pick_and_place.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/ur_pick_and_place-0.0.0-py3.10.egg-info")
-
-# install(DIRECTORY "/home/agrobotics/Documents/ur_pick_and_place/ur_pick_and_place/" "DESTINATION" "local/lib/python3.10/dist-packages/ur_pick_and_place" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/agrobotics/Documents/ur_pick_and_place" DIRECTORY "/home/agrobotics/Documents/ur_pick_and_place/ur_pick_and_place/" "DESTINATION" "local/lib/python3.10/dist-packages/ur_pick_and_place" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-
-# install(FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ur_pick_and_place" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/agrobotics/Documents/ur_pick_and_place" FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ur_pick_and_place" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-
-# install(FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ur_pick_and_place" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/agrobotics/Documents/ur_pick_and_place" FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ur_pick_and_place" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ur_pick_and_place" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place" FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ur_pick_and_place" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ur_pick_and_place/environment")
-ament_cmake_symlink_install_files("/home/agrobotics/Documents/ur_pick_and_place" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ur_pick_and_place/environment")
+ament_cmake_symlink_install_files("/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ur_pick_and_place/environment")
 
-# install(FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ur_pick_and_place/environment")
-ament_cmake_symlink_install_files("/home/agrobotics/Documents/ur_pick_and_place" FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ur_pick_and_place/environment")
+# install(FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ur_pick_and_place/environment")
+ament_cmake_symlink_install_files("/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place" FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ur_pick_and_place/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ur_pick_and_place/environment")
-ament_cmake_symlink_install_files("/home/agrobotics/Documents/ur_pick_and_place" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ur_pick_and_place/environment")
+ament_cmake_symlink_install_files("/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ur_pick_and_place/environment")
 
-# install(FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ur_pick_and_place/environment")
-ament_cmake_symlink_install_files("/home/agrobotics/Documents/ur_pick_and_place" FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ur_pick_and_place/environment")
+# install(FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ur_pick_and_place/environment")
+ament_cmake_symlink_install_files("/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place" FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ur_pick_and_place/environment")
 
-# install(FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ur_pick_and_place")
-ament_cmake_symlink_install_files("/home/agrobotics/Documents/ur_pick_and_place" FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ur_pick_and_place")
+# install(FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ur_pick_and_place")
+ament_cmake_symlink_install_files("/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place" FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ur_pick_and_place")
 
-# install(FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ur_pick_and_place")
-ament_cmake_symlink_install_files("/home/agrobotics/Documents/ur_pick_and_place" FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ur_pick_and_place")
+# install(FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ur_pick_and_place")
+ament_cmake_symlink_install_files("/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place" FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ur_pick_and_place")
 
-# install(FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ur_pick_and_place")
-ament_cmake_symlink_install_files("/home/agrobotics/Documents/ur_pick_and_place" FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ur_pick_and_place")
+# install(FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ur_pick_and_place")
+ament_cmake_symlink_install_files("/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place" FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ur_pick_and_place")
 
-# install(FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ur_pick_and_place")
-ament_cmake_symlink_install_files("/home/agrobotics/Documents/ur_pick_and_place" FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ur_pick_and_place")
+# install(FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ur_pick_and_place")
+ament_cmake_symlink_install_files("/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place" FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ur_pick_and_place")
 
-# install(FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ur_pick_and_place")
-ament_cmake_symlink_install_files("/home/agrobotics/Documents/ur_pick_and_place" FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ur_pick_and_place")
+# install(FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ur_pick_and_place")
+ament_cmake_symlink_install_files("/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place" FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ur_pick_and_place")
 
-# install(FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_index/share/ament_index/resource_index/packages/ur_pick_and_place" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/agrobotics/Documents/ur_pick_and_place" FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_index/share/ament_index/resource_index/packages/ur_pick_and_place" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_index/share/ament_index/resource_index/packages/ur_pick_and_place" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place" FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_index/share/ament_index/resource_index/packages/ur_pick_and_place" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_core/ur_pick_and_placeConfig.cmake" "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_core/ur_pick_and_placeConfig-version.cmake" "DESTINATION" "share/ur_pick_and_place/cmake")
-ament_cmake_symlink_install_files("/home/agrobotics/Documents/ur_pick_and_place" FILES "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_core/ur_pick_and_placeConfig.cmake" "/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_core/ur_pick_and_placeConfig-version.cmake" "DESTINATION" "share/ur_pick_and_place/cmake")
+# install(FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_core/ur_pick_and_placeConfig.cmake" "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_core/ur_pick_and_placeConfig-version.cmake" "DESTINATION" "share/ur_pick_and_place/cmake")
+ament_cmake_symlink_install_files("/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place" FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_core/ur_pick_and_placeConfig.cmake" "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_core/ur_pick_and_placeConfig-version.cmake" "DESTINATION" "share/ur_pick_and_place/cmake")
 
-# install(FILES "/home/agrobotics/Documents/ur_pick_and_place/package.xml" "DESTINATION" "share/ur_pick_and_place")
-ament_cmake_symlink_install_files("/home/agrobotics/Documents/ur_pick_and_place" FILES "/home/agrobotics/Documents/ur_pick_and_place/package.xml" "DESTINATION" "share/ur_pick_and_place")
+# install(FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/package.xml" "DESTINATION" "share/ur_pick_and_place")
+ament_cmake_symlink_install_files("/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place" FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/package.xml" "DESTINATION" "share/ur_pick_and_place")

@@ -1,1 +1,1 @@
-/home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/local_setup.sh
+/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/local_setup.sh

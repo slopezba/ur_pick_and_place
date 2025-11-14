@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target add_box_obstacle[0m
+[35m[1mConsolidate compiler generated dependencies of target pick_and_place[0m
+[35m[1mConsolidate compiler generated dependencies of target go_home_node[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.o[0m
+[ 50%] Built target pick_and_place
+[ 83%] Built target go_home_node
+[100%] [32m[1mLinking CXX executable add_box_obstacle[0m
+[100%] Built target add_box_obstacle
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/lib/ur_pick_and_place/pick_and_place
+-- Up-to-date symlink: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/lib/ur_pick_and_place/go_home_node
+-- Up-to-date symlink: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/lib/ur_pick_and_place/add_box_obstacle
+-- Up-to-date symlink: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ament_index/resource_index/package_run_dependencies/ur_pick_and_place
+-- Up-to-date symlink: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ament_index/resource_index/parent_prefix_path/ur_pick_and_place
+-- Up-to-date symlink: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/path.sh
+-- Up-to-date symlink: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/path.dsv
+-- Up-to-date symlink: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/local_setup.bash
+-- Up-to-date symlink: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/local_setup.sh
+-- Up-to-date symlink: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/local_setup.zsh
+-- Up-to-date symlink: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/local_setup.dsv
+-- Symlinking: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/package.dsv
+-- Up-to-date symlink: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ament_index/resource_index/packages/ur_pick_and_place
+-- Up-to-date symlink: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/cmake/ur_pick_and_placeConfig.cmake
+-- Up-to-date symlink: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/cmake/ur_pick_and_placeConfig-version.cmake
+-- Up-to-date symlink: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/package.xml
+-- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/launch
+-- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/launch/initialization.launch.py

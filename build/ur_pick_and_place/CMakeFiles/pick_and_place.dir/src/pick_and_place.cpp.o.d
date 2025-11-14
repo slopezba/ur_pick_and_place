@@ -1,5 +1,5 @@
 CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o: \
- /home/agrobotics/Documents/ur_pick_and_place/src/pick_and_place.cpp \
+ /home/javier-rojas/Documents/Doctorado/3er\ Semestre/ur_pick_and_place/src/pick_and_place.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \

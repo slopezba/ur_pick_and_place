@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agrobotics/Documents/ur_pick_and_place
+CMAKE_SOURCE_DIR = "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place
+CMAKE_BINARY_DIR = "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles /home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles" "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/agrobotics/Documents/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -224,30 +224,41 @@ go_home_node/fast:
 .PHONY : go_home_node/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_ur_pick_and_place
+# Target rules for targets named add_box_obstacle
 
 # Build rule for target.
-ament_cmake_python_symlink_ur_pick_and_place: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_ur_pick_and_place
-.PHONY : ament_cmake_python_symlink_ur_pick_and_place
+add_box_obstacle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 add_box_obstacle
+.PHONY : add_box_obstacle
 
 # fast build rule for target.
-ament_cmake_python_symlink_ur_pick_and_place/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_ur_pick_and_place.dir/build.make CMakeFiles/ament_cmake_python_symlink_ur_pick_and_place.dir/build
-.PHONY : ament_cmake_python_symlink_ur_pick_and_place/fast
+add_box_obstacle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_box_obstacle.dir/build.make CMakeFiles/add_box_obstacle.dir/build
+.PHONY : add_box_obstacle/fast
 
-#=============================================================================
-# Target rules for targets named ament_cmake_python_build_ur_pick_and_place_egg
+src/add_box_obstacle.o: src/add_box_obstacle.cpp.o
+.PHONY : src/add_box_obstacle.o
 
-# Build rule for target.
-ament_cmake_python_build_ur_pick_and_place_egg: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_build_ur_pick_and_place_egg
-.PHONY : ament_cmake_python_build_ur_pick_and_place_egg
+# target to build an object file
+src/add_box_obstacle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_box_obstacle.dir/build.make CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.o
+.PHONY : src/add_box_obstacle.cpp.o
 
-# fast build rule for target.
-ament_cmake_python_build_ur_pick_and_place_egg/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_ur_pick_and_place_egg.dir/build.make CMakeFiles/ament_cmake_python_build_ur_pick_and_place_egg.dir/build
-.PHONY : ament_cmake_python_build_ur_pick_and_place_egg/fast
+src/add_box_obstacle.i: src/add_box_obstacle.cpp.i
+.PHONY : src/add_box_obstacle.i
+
+# target to preprocess a source file
+src/add_box_obstacle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_box_obstacle.dir/build.make CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.i
+.PHONY : src/add_box_obstacle.cpp.i
+
+src/add_box_obstacle.s: src/add_box_obstacle.cpp.s
+.PHONY : src/add_box_obstacle.s
+
+# target to generate assembly for a file
+src/add_box_obstacle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_box_obstacle.dir/build.make CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.s
+.PHONY : src/add_box_obstacle.cpp.s
 
 src/go_home_node.o: src/go_home_node.cpp.o
 .PHONY : src/go_home_node.o
@@ -310,12 +321,14 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... ament_cmake_python_build_ur_pick_and_place_egg"
-	@echo "... ament_cmake_python_symlink_ur_pick_and_place"
 	@echo "... uninstall"
 	@echo "... ur_pick_and_place_uninstall"
+	@echo "... add_box_obstacle"
 	@echo "... go_home_node"
 	@echo "... pick_and_place"
+	@echo "... src/add_box_obstacle.o"
+	@echo "... src/add_box_obstacle.i"
+	@echo "... src/add_box_obstacle.s"
 	@echo "... src/go_home_node.o"
 	@echo "... src/go_home_node.i"
 	@echo "... src/go_home_node.s"

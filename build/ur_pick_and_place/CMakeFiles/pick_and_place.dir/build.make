@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place"
+CMAKE_SOURCE_DIR = "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/src/ur_pick_and_place"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place"
@@ -70,18 +70,18 @@ include CMakeFiles/pick_and_place.dir/progress.make
 include CMakeFiles/pick_and_place.dir/flags.make
 
 CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o: CMakeFiles/pick_and_place.dir/flags.make
-CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o: ../../src/pick_and_place.cpp
+CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o: /home/javier-rojas/Documents/Doctorado/3er\ Semestre/ur_pick_and_place/src/ur_pick_and_place/src/pick_and_place.cpp
 CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o: CMakeFiles/pick_and_place.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o -MF CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o.d -o CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o -c "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/src/pick_and_place.cpp"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o -MF CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o.d -o CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o -c "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/src/ur_pick_and_place/src/pick_and_place.cpp"
 
 CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/src/pick_and_place.cpp" > CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/src/ur_pick_and_place/src/pick_and_place.cpp" > CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.i
 
 CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/src/pick_and_place.cpp" -o CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/src/ur_pick_and_place/src/pick_and_place.cpp" -o CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.s
 
 # Object files for target pick_and_place
 pick_and_place_OBJECTS = \
@@ -363,6 +363,6 @@ CMakeFiles/pick_and_place.dir/clean:
 .PHONY : CMakeFiles/pick_and_place.dir/clean
 
 CMakeFiles/pick_and_place.dir/depend:
-	cd "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place" "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place" "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place" "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place" "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/pick_and_place.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/src/ur_pick_and_place" "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/src/ur_pick_and_place" "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place" "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place" "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/pick_and_place.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/pick_and_place.dir/depend
 

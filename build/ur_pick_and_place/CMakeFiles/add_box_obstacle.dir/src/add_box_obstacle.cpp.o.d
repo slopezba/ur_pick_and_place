@@ -1,5 +1,5 @@
 CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.o: \
- /home/javier-rojas/Documents/Doctorado/3er\ Semestre/ur_pick_and_place/src/add_box_obstacle.cpp \
+ /home/javier-rojas/Documents/Doctorado/3er\ Semestre/ur_pick_and_place/src/ur_pick_and_place/src/add_box_obstacle.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \

@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/vision_pick_init
+vision_pick_init/__init__.py
+vision_pick_init/vision_node.py
+vision_pick_init.egg-info/PKG-INFO
+vision_pick_init.egg-info/SOURCES.txt
+vision_pick_init.egg-info/dependency_links.txt
+vision_pick_init.egg-info/entry_points.txt
+vision_pick_init.egg-info/requires.txt
+vision_pick_init.egg-info/top_level.txt
+vision_pick_init.egg-info/zip-safe

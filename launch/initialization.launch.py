@@ -27,7 +27,7 @@ def generate_launch_description():
             ),
             launch_arguments={
                 'ur_type' : 'ur5e',
-                'robot_ip' : '192.168.56.101',            # Modify if different robot ip
+                'robot_ip' : '172.17.0.2',            # Modify if different robot ip
                 'launch_rviz' : 'false'
             }.items()
         )

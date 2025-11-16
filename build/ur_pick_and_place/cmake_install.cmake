@@ -1,4 +1,4 @@
-# Install script for directory: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place
+# Install script for directory: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/src/ur_pick_and_place
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -47,7 +47,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_pick_and_place" TYPE DIRECTORY FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/launch" FILES_MATCHING REGEX "/[^/]*\\.launch\\.py$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_pick_and_place" TYPE DIRECTORY FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/src/ur_pick_and_place/launch" FILES_MATCHING REGEX "/[^/]*\\.launch\\.py$")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

@@ -1,0 +1,84 @@
+[0.023s] Invoking command in '/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/vision_pick_init:/opt/ros/humble /usr/bin/cmake /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/src/ur_pick_and_place -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place
+[0.104s] -- The C compiler identification is GNU 11.4.0
+[0.209s] -- The CXX compiler identification is GNU 11.4.0
+[0.228s] -- Detecting C compiler ABI info
+[0.333s] -- Detecting C compiler ABI info - done
+[0.346s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.346s] -- Detecting C compile features
+[0.347s] -- Detecting C compile features - done
+[0.351s] -- Detecting CXX compiler ABI info
+[0.475s] -- Detecting CXX compiler ABI info - done
+[0.489s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.490s] -- Detecting CXX compile features
+[0.490s] -- Detecting CXX compile features - done
+[0.495s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.728s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.822s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.863s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.920s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.927s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.941s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.962s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.989s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.061s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.065s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.203s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.256s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.338s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.349s] -- Looking for pthread.h
+[1.459s] -- Looking for pthread.h - found
+[1.459s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.580s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.582s] -- Found Threads: TRUE  
+[1.692s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.717s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[1.756s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.080s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.154s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.172s] -- Found rclcpp_lifecycle: 16.0.15 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.209s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.349s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.406s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.406s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.615s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.666s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.699s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.848s] -- Configuring done
+[2.929s] -- Generating done
+[2.932s] -- Build files have been written to: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place
+[2.953s] Invoked command in '/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/vision_pick_init:/opt/ros/humble /usr/bin/cmake /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/src/ur_pick_and_place -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place
+[2.955s] Invoking command in '/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/vision_pick_init:/opt/ros/humble /usr/bin/cmake --build /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place -- -j8 -l8
+[3.036s] [ 33%] [32mBuilding CXX object CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.o[0m
+[3.036s] [ 33%] [32mBuilding CXX object CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o[0m
+[3.036s] [ 50%] [32mBuilding CXX object CMakeFiles/go_home_node.dir/src/go_home_node.cpp.o[0m
+[12.378s] [ 66%] [32m[1mLinking CXX executable add_box_obstacle[0m
+[12.779s] [ 66%] Built target add_box_obstacle
+[21.416s] [ 83%] [32m[1mLinking CXX executable go_home_node[0m
+[21.735s] [100%] [32m[1mLinking CXX executable pick_and_place[0m
+[22.634s] [100%] Built target go_home_node
+[22.955s] [100%] Built target pick_and_place
+[22.974s] Invoked command in '/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/vision_pick_init:/opt/ros/humble /usr/bin/cmake --build /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place -- -j8 -l8
+[23.039s] Invoking command in '/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/vision_pick_init:/opt/ros/humble /usr/bin/cmake --install /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place
+[23.050s] -- Install configuration: ""
+[23.051s] -- Execute custom install script
+[23.051s] -- Symlinking: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/lib/ur_pick_and_place/pick_and_place
+[23.065s] -- Symlinking: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/lib/ur_pick_and_place/go_home_node
+[23.078s] -- Symlinking: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/lib/ur_pick_and_place/add_box_obstacle
+[23.093s] -- Symlinking: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ament_index/resource_index/package_run_dependencies/ur_pick_and_place
+[23.107s] -- Symlinking: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ament_index/resource_index/parent_prefix_path/ur_pick_and_place
+[23.121s] -- Symlinking: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/ament_prefix_path.sh
+[23.134s] -- Symlinking: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/ament_prefix_path.dsv
+[23.148s] -- Symlinking: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/path.sh
+[23.163s] -- Symlinking: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/path.dsv
+[23.177s] -- Symlinking: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/local_setup.bash
+[23.191s] -- Symlinking: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/local_setup.sh
+[23.205s] -- Symlinking: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/local_setup.zsh
+[23.218s] -- Symlinking: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/local_setup.dsv
+[23.232s] -- Symlinking: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/package.dsv
+[23.246s] -- Symlinking: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ament_index/resource_index/packages/ur_pick_and_place
+[23.260s] -- Symlinking: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/cmake/ur_pick_and_placeConfig.cmake
+[23.274s] -- Symlinking: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/cmake/ur_pick_and_placeConfig-version.cmake
+[23.288s] -- Symlinking: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/package.xml
+[23.302s] -- Installing: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/launch
+[23.302s] -- Installing: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/launch/initialization.launch.py
+[23.306s] Invoked command in '/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/vision_pick_init:/opt/ros/humble /usr/bin/cmake --install /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place

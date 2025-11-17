@@ -45,9 +45,9 @@
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place
-[ 16%] [32mBuilding CXX object CMakeFiles/go_home_node.dir/src/go_home_node.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/go_home_node.dir/src/go_home_node.cpp.o[0m
 [ 66%] [32m[1mLinking CXX executable add_box_obstacle[0m
 [ 66%] Built target add_box_obstacle
 [ 83%] [32m[1mLinking CXX executable go_home_node[0m
@@ -74,3 +74,5 @@
 -- Symlinking: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/cmake/ur_pick_and_placeConfig.cmake
 -- Symlinking: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/cmake/ur_pick_and_placeConfig-version.cmake
 -- Symlinking: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/package.xml
+-- Installing: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/launch
+-- Installing: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/launch/initialization.launch.py

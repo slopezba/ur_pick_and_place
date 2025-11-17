@@ -1,0 +1,19 @@
+[1.026s] Invoking command in '/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/vision_pick_init': PYTHONPATH=/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/vision_pick_init/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/vision_pick_init/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/vision_pick_init/build --no-deps symlink_data
+[1.432s] running develop
+[1.432s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.433s]   warnings.warn(
+[1.733s] running egg_info
+[1.733s] writing vision_pick_init.egg-info/PKG-INFO
+[1.734s] writing dependency_links to vision_pick_init.egg-info/dependency_links.txt
+[1.734s] writing entry points to vision_pick_init.egg-info/entry_points.txt
+[1.734s] writing requirements to vision_pick_init.egg-info/requires.txt
+[1.734s] writing top-level names to vision_pick_init.egg-info/top_level.txt
+[1.737s] reading manifest file 'vision_pick_init.egg-info/SOURCES.txt'
+[1.738s] writing manifest file 'vision_pick_init.egg-info/SOURCES.txt'
+[1.740s] running build_ext
+[1.740s] Creating /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/vision_pick_init/lib/python3.10/site-packages/vision-pick-init.egg-link (link to .)
+[1.741s] Installing vision_node script to /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/vision_pick_init/lib/vision_pick_init
+[1.742s] 
+[1.742s] Installed /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/vision_pick_init
+[1.742s] running symlink_data
+[1.787s] Invoked command in '/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/vision_pick_init' returned '0': PYTHONPATH=/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/vision_pick_init/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/vision_pick_init/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/vision_pick_init/build --no-deps symlink_data

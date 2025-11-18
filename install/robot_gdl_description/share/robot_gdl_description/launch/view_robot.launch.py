@@ -1,0 +1,1 @@
+/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/src/robot_gdl_description/launch/view_robot.launch.py

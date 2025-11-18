@@ -1,8 +1,8 @@
-# Install script for directory: /home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/src/ur_pick_and_place
+# Install script for directory: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/src/ur_pick_and_place
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/install/ur_pick_and_place")
+  set(CMAKE_INSTALL_PREFIX "/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,11 +43,126 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place/pick_and_place" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place/pick_and_place")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place/pick_and_place"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place" TYPE EXECUTABLE FILES "/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/pick_and_place")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place/pick_and_place" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place/pick_and_place")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place/pick_and_place"
+         OLD_RPATH "/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place/pick_and_place")
+    endif()
+  endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_pick_and_place" TYPE DIRECTORY FILES "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/src/ur_pick_and_place/launch" FILES_MATCHING REGEX "/[^/]*\\.launch\\.py$")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place/go_home_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place/go_home_node")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place/go_home_node"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place" TYPE EXECUTABLE FILES "/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/go_home_node")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place/go_home_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place/go_home_node")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place/go_home_node"
+         OLD_RPATH "/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place/go_home_node")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place/add_box_obstacle" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place/add_box_obstacle")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place/add_box_obstacle"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place" TYPE EXECUTABLE FILES "/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/add_box_obstacle")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place/add_box_obstacle" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place/add_box_obstacle")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place/add_box_obstacle"
+         OLD_RPATH "/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_pick_and_place/add_box_obstacle")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_pick_and_place" TYPE DIRECTORY FILES "/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/src/ur_pick_and_place/launch" FILES_MATCHING REGEX "/[^/]*\\.launch\\.py$")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ur_pick_and_place")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ur_pick_and_place")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_pick_and_place/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_pick_and_place/environment" TYPE FILE FILES "/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_pick_and_place/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_pick_and_place/environment" TYPE FILE FILES "/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_pick_and_place" TYPE FILE FILES "/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/local_setup.bash")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_pick_and_place" TYPE FILE FILES "/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/local_setup.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_pick_and_place" TYPE FILE FILES "/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/local_setup.zsh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_pick_and_place" TYPE FILE FILES "/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/local_setup.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_pick_and_place" TYPE FILE FILES "/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_environment_hooks/package.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_index/share/ament_index/resource_index/packages/ur_pick_and_place")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_pick_and_place/cmake" TYPE FILE FILES
+    "/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_core/ur_pick_and_placeConfig.cmake"
+    "/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_core/ur_pick_and_placeConfig-version.cmake"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_pick_and_place" TYPE FILE FILES "/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/src/ur_pick_and_place/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -58,5 +173,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

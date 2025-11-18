@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/src/ur_pick_and_place"
+CMAKE_SOURCE_DIR = /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/src/ur_pick_and_place
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place"
+CMAKE_BINARY_DIR = /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place
 
 # Include any dependencies generated for this target.
 include CMakeFiles/add_box_obstacle.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/add_box_obstacle.dir/progress.make
 include CMakeFiles/add_box_obstacle.dir/flags.make
 
 CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.o: CMakeFiles/add_box_obstacle.dir/flags.make
-CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.o: /home/javier-rojas/Documents/Doctorado/3er\ Semestre/ur_pick_and_place/src/ur_pick_and_place/src/add_box_obstacle.cpp
+CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.o: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/src/ur_pick_and_place/src/add_box_obstacle.cpp
 CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.o: CMakeFiles/add_box_obstacle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.o -MF CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.o.d -o CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.o -c "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/src/ur_pick_and_place/src/add_box_obstacle.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.o -MF CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.o.d -o CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.o -c /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/src/ur_pick_and_place/src/add_box_obstacle.cpp
 
 CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/src/ur_pick_and_place/src/add_box_obstacle.cpp" > CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/src/ur_pick_and_place/src/add_box_obstacle.cpp > CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.i
 
 CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/src/ur_pick_and_place/src/add_box_obstacle.cpp" -o CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/src/ur_pick_and_place/src/add_box_obstacle.cpp -o CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.s
 
 # Object files for target add_box_obstacle
 add_box_obstacle_OBJECTS = \
@@ -351,7 +351,7 @@ add_box_obstacle: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
 add_box_obstacle: /usr/lib/x86_64-linux-gnu/liborocos-kdl.so
 add_box_obstacle: /usr/lib/x86_64-linux-gnu/libcrypto.so
 add_box_obstacle: CMakeFiles/add_box_obstacle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable add_box_obstacle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable add_box_obstacle"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/add_box_obstacle.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -363,6 +363,6 @@ CMakeFiles/add_box_obstacle.dir/clean:
 .PHONY : CMakeFiles/add_box_obstacle.dir/clean
 
 CMakeFiles/add_box_obstacle.dir/depend:
-	cd "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/src/ur_pick_and_place" "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/src/ur_pick_and_place" "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place" "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place" "/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/add_box_obstacle.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/src/ur_pick_and_place /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/src/ur_pick_and_place /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/add_box_obstacle.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/add_box_obstacle.dir/depend
 

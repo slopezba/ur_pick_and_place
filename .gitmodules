@@ -1,0 +1,3 @@
+[submodule "src/robot_gdl_description"]
+	path = src/robot_gdl_description
+	url = https://github.com/slopezba/robot_gdl_description.git

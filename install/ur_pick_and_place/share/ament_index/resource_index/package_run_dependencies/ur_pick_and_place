@@ -1,1 +1,1 @@
-/home/javier-rojas/Documents/Doctorado/3er Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ur_pick_and_place
+rclcpp;geometry_msgs;moveit_ros_planning_interface;moveit_core;moveit_ros_planning;ament_lint_auto;ament_lint_common

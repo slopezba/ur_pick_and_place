@@ -1,0 +1,1 @@
+/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/robot_gdl_description/ament_cmake_environment_hooks/local_setup.sh

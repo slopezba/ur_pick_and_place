@@ -1,5 +1,5 @@
 CMakeFiles/go_home_node.dir/src/go_home_node.cpp.o: \
- /home/javier-rojas/Documents/Doctorado/3er\ Semestre/ur_pick_and_place/src/ur_pick_and_place/src/go_home_node.cpp \
+ /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/src/ur_pick_and_place/src/go_home_node.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \

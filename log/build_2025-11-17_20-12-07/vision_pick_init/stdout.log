@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/vision_pick_init/vision_pick_init.egg-info/PKG-INFO
+writing dependency_links to ../../build/vision_pick_init/vision_pick_init.egg-info/dependency_links.txt
+writing entry points to ../../build/vision_pick_init/vision_pick_init.egg-info/entry_points.txt
+writing requirements to ../../build/vision_pick_init/vision_pick_init.egg-info/requires.txt
+writing top-level names to ../../build/vision_pick_init/vision_pick_init.egg-info/top_level.txt
+reading manifest file '../../build/vision_pick_init/vision_pick_init.egg-info/SOURCES.txt'
+writing manifest file '../../build/vision_pick_init/vision_pick_init.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init/lib/python3.10/site-packages/vision_pick_init-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/vision_pick_init/vision_pick_init.egg-info to /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init/lib/python3.10/site-packages/vision_pick_init-0.0.1-py3.10.egg-info
+running install_scripts
+Installing vision_node script to /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init/lib/vision_pick_init
+writing list of installed files to '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/vision_pick_init/install.log'

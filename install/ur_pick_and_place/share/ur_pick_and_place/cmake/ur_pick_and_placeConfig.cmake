@@ -1,0 +1,1 @@
+/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/ament_cmake_core/ur_pick_and_placeConfig.cmake

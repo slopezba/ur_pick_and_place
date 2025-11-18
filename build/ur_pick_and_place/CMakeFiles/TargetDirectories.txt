@@ -1,0 +1,12 @@
+/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/uninstall.dir
+/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/ur_pick_and_place_uninstall.dir
+/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/pick_and_place.dir
+/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/go_home_node.dir
+/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/add_box_obstacle.dir
+/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/test.dir
+/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/edit_cache.dir
+/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/rebuild_cache.dir
+/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/list_install_components.dir
+/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/install.dir
+/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/install/local.dir
+/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place/CMakeFiles/install/strip.dir

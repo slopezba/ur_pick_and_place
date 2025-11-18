@@ -1,0 +1,318 @@
+[0.000000] (-) TimerEvent: {}
+[0.000433] (ur_pick_and_place) JobQueued: {'identifier': 'ur_pick_and_place', 'dependencies': OrderedDict()}
+[0.000464] (vision_pick_init) JobQueued: {'identifier': 'vision_pick_init', 'dependencies': OrderedDict()}
+[0.000485] (ur_pick_and_place) JobStarted: {'identifier': 'ur_pick_and_place'}
+[0.007568] (vision_pick_init) JobStarted: {'identifier': 'vision_pick_init'}
+[0.016616] (ur_pick_and_place) JobProgress: {'identifier': 'ur_pick_and_place', 'progress': 'cmake'}
+[0.017000] (ur_pick_and_place) Command: {'cmd': ['/usr/bin/cmake', '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/src/ur_pick_and_place', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place'], 'cwd': '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'javier-rojas'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/javier-rojas/miniconda3/envs/DemoExpoGDL/lib/python3.10/site-packages/nvidia/cublas/lib:/home/javier-rojas/miniconda3/envs/DemoExpoGDL/lib/python3.10/site-packages/nvidia/cufft/lib:/home/javier-rojas/miniconda3/envs/DemoExpoGDL/lib/python3.10/site-packages/nvidia/cuda_runtime/lib:/home/javier-rojas/miniconda3/envs/DemoExpoGDL/lib/python3.10/site-packages/nvidia/cudnn/lib:/home/javier-rojas/miniconda3/envs/DemoExpoGDL/lib/python3.10/site-packages/nvidia/cuda_nvrtc/lib'), ('HOME', '/home/javier-rojas'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/javier-rojas'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ALL', 'en_US.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('MANAGERPID', '2170'), ('SYSTEMD_EXEC_PID', '2696'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '75588'), ('COLCON_PREFIX_PATH', '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'javier-rojas'), ('JOURNAL_STREAM', '8:17075'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'javier-rojas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/javier-rojas/miniconda3/condabin:/home/javier-rojas/.local/bin:/home/javier-rojas/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/JaRo-Linux:@/tmp/.ICE-unix/2457,unix/JaRo-Linux:/tmp/.ICE-unix/2457'), ('INVOCATION_ID', '9440130e48df4f689b25b739bf172b67'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init:/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/javier-rojas/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bbaf030e-10db-4c2b-afde-dff560ab7f9d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/javier-rojas/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/vision_pick_init:/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place:/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init:/opt/ros/humble')]), 'shell': False}
+[0.088899] (ur_pick_and_place) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099428] (-) TimerEvent: {}
+[0.162520] (ur_pick_and_place) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.172365] (ur_pick_and_place) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199524] (-) TimerEvent: {}
+[0.273219] (ur_pick_and_place) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.284160] (ur_pick_and_place) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.284515] (ur_pick_and_place) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.285065] (ur_pick_and_place) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.290325] (ur_pick_and_place) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299652] (-) TimerEvent: {}
+[0.397027] (ur_pick_and_place) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.399762] (-) TimerEvent: {}
+[0.407191] (ur_pick_and_place) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.407676] (ur_pick_and_place) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.408288] (ur_pick_and_place) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.411595] (ur_pick_and_place) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.499873] (-) TimerEvent: {}
+[0.600179] (-) TimerEvent: {}
+[0.610355] (ur_pick_and_place) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.691507] (ur_pick_and_place) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.700288] (-) TimerEvent: {}
+[0.729864] (ur_pick_and_place) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.791613] (ur_pick_and_place) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.798223] (ur_pick_and_place) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.800399] (-) TimerEvent: {}
+[0.808398] (ur_pick_and_place) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.824618] (ur_pick_and_place) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.846327] (ur_pick_and_place) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900525] (-) TimerEvent: {}
+[0.906313] (ur_pick_and_place) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.909664] (ur_pick_and_place) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.932943] (vision_pick_init) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/vision_pick_init/build', '--no-deps', 'symlink_data'], 'cwd': '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/vision_pick_init', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'javier-rojas', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/javier-rojas/miniconda3/envs/DemoExpoGDL/lib/python3.10/site-packages/nvidia/cublas/lib:/home/javier-rojas/miniconda3/envs/DemoExpoGDL/lib/python3.10/site-packages/nvidia/cufft/lib:/home/javier-rojas/miniconda3/envs/DemoExpoGDL/lib/python3.10/site-packages/nvidia/cuda_runtime/lib:/home/javier-rojas/miniconda3/envs/DemoExpoGDL/lib/python3.10/site-packages/nvidia/cudnn/lib:/home/javier-rojas/miniconda3/envs/DemoExpoGDL/lib/python3.10/site-packages/nvidia/cuda_nvrtc/lib', 'HOME': '/home/javier-rojas', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/javier-rojas', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ALL': 'en_US.UTF-8', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'MANAGERPID': '2170', 'SYSTEMD_EXEC_PID': '2696', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '75588', 'COLCON_PREFIX_PATH': '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'javier-rojas', 'JOURNAL_STREAM': '8:17075', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'javier-rojas', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/javier-rojas/miniconda3/condabin:/home/javier-rojas/.local/bin:/home/javier-rojas/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/JaRo-Linux:@/tmp/.ICE-unix/2457,unix/JaRo-Linux:/tmp/.ICE-unix/2457', 'INVOCATION_ID': '9440130e48df4f689b25b739bf172b67', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init:/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/javier-rojas/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:bbaf030e-10db-4c2b-afde-dff560ab7f9d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/vision_pick_init', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/javier-rojas/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/vision_pick_init/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init/lib/python3.10/site-packages:/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/vision_pick_init:/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place'}, 'shell': False}
+[1.000616] (-) TimerEvent: {}
+[1.027518] (ur_pick_and_place) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.076946] (ur_pick_and_place) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.100688] (-) TimerEvent: {}
+[1.140487] (ur_pick_and_place) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.150953] (ur_pick_and_place) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.200774] (-) TimerEvent: {}
+[1.243016] (ur_pick_and_place) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.243586] (ur_pick_and_place) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.300859] (-) TimerEvent: {}
+[1.341453] (vision_pick_init) StdoutLine: {'line': b'running develop\n'}
+[1.342127] (vision_pick_init) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.342316] (vision_pick_init) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.343077] (ur_pick_and_place) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.345437] (ur_pick_and_place) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.400958] (-) TimerEvent: {}
+[1.459979] (ur_pick_and_place) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.491565] (ur_pick_and_place) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[1.501066] (-) TimerEvent: {}
+[1.534793] (ur_pick_and_place) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[1.601187] (-) TimerEvent: {}
+[1.701437] (-) TimerEvent: {}
+[1.763894] (vision_pick_init) StdoutLine: {'line': b'running egg_info\n'}
+[1.764163] (vision_pick_init) StdoutLine: {'line': b'creating vision_pick_init.egg-info\n'}
+[1.764391] (vision_pick_init) StdoutLine: {'line': b'writing vision_pick_init.egg-info/PKG-INFO\n'}
+[1.764755] (vision_pick_init) StdoutLine: {'line': b'writing dependency_links to vision_pick_init.egg-info/dependency_links.txt\n'}
+[1.764940] (vision_pick_init) StdoutLine: {'line': b'writing entry points to vision_pick_init.egg-info/entry_points.txt\n'}
+[1.765230] (vision_pick_init) StdoutLine: {'line': b'writing requirements to vision_pick_init.egg-info/requires.txt\n'}
+[1.765377] (vision_pick_init) StdoutLine: {'line': b'writing top-level names to vision_pick_init.egg-info/top_level.txt\n'}
+[1.765664] (vision_pick_init) StdoutLine: {'line': b"writing manifest file 'vision_pick_init.egg-info/SOURCES.txt'\n"}
+[1.768522] (vision_pick_init) StdoutLine: {'line': b"reading manifest file 'vision_pick_init.egg-info/SOURCES.txt'\n"}
+[1.769748] (vision_pick_init) StdoutLine: {'line': b"writing manifest file 'vision_pick_init.egg-info/SOURCES.txt'\n"}
+[1.772402] (vision_pick_init) StdoutLine: {'line': b'running build_ext\n'}
+[1.772743] (vision_pick_init) StdoutLine: {'line': b'Creating /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init/lib/python3.10/site-packages/vision-pick-init.egg-link (link to .)\n'}
+[1.774158] (vision_pick_init) StdoutLine: {'line': b'Installing vision_node script to /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init/lib/vision_pick_init\n'}
+[1.774539] (vision_pick_init) StdoutLine: {'line': b'\n'}
+[1.774750] (vision_pick_init) StdoutLine: {'line': b'Installed /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/vision_pick_init\n'}
+[1.774924] (vision_pick_init) StdoutLine: {'line': b'running symlink_data\n'}
+[1.775107] (vision_pick_init) StdoutLine: {'line': b'creating /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init/share/ament_index\n'}
+[1.775279] (vision_pick_init) StdoutLine: {'line': b'creating /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init/share/ament_index/resource_index\n'}
+[1.775381] (vision_pick_init) StdoutLine: {'line': b'creating /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init/share/ament_index/resource_index/packages\n'}
+[1.775496] (vision_pick_init) StdoutLine: {'line': b'symbolically linking /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/vision_pick_init/resource/vision_pick_init -> /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init/share/ament_index/resource_index/packages\n'}
+[1.775670] (vision_pick_init) StdoutLine: {'line': b'symbolically linking /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/vision_pick_init/package.xml -> /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init/share/vision_pick_init\n'}
+[1.801562] (-) TimerEvent: {}
+[1.826097] (vision_pick_init) CommandEnded: {'returncode': 0}
+[1.849190] (vision_pick_init) JobEnded: {'identifier': 'vision_pick_init', 'rc': 0}
+[1.890147] (ur_pick_and_place) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[1.901661] (-) TimerEvent: {}
+[1.964760] (ur_pick_and_place) StdoutLine: {'line': b'-- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.981554] (ur_pick_and_place) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.15 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[2.001767] (-) TimerEvent: {}
+[2.014504] (ur_pick_and_place) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[2.101872] (-) TimerEvent: {}
+[2.134594] (ur_pick_and_place) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[2.181353] (ur_pick_and_place) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.181517] (ur_pick_and_place) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.201979] (-) TimerEvent: {}
+[2.302226] (-) TimerEvent: {}
+[2.368845] (ur_pick_and_place) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[2.402415] (-) TimerEvent: {}
+[2.412980] (ur_pick_and_place) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[2.442643] (ur_pick_and_place) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[2.502522] (-) TimerEvent: {}
+[2.579025] (ur_pick_and_place) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.602614] (-) TimerEvent: {}
+[2.653146] (ur_pick_and_place) StdoutLine: {'line': b'-- Generating done\n'}
+[2.658006] (ur_pick_and_place) StdoutLine: {'line': b'-- Build files have been written to: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place\n'}
+[2.677161] (ur_pick_and_place) CommandEnded: {'returncode': 0}
+[2.678263] (ur_pick_and_place) JobProgress: {'identifier': 'ur_pick_and_place', 'progress': 'build'}
+[2.679250] (ur_pick_and_place) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place', '--', '-j8', '-l8'], 'cwd': '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'javier-rojas'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/javier-rojas/miniconda3/envs/DemoExpoGDL/lib/python3.10/site-packages/nvidia/cublas/lib:/home/javier-rojas/miniconda3/envs/DemoExpoGDL/lib/python3.10/site-packages/nvidia/cufft/lib:/home/javier-rojas/miniconda3/envs/DemoExpoGDL/lib/python3.10/site-packages/nvidia/cuda_runtime/lib:/home/javier-rojas/miniconda3/envs/DemoExpoGDL/lib/python3.10/site-packages/nvidia/cudnn/lib:/home/javier-rojas/miniconda3/envs/DemoExpoGDL/lib/python3.10/site-packages/nvidia/cuda_nvrtc/lib'), ('HOME', '/home/javier-rojas'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/javier-rojas'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ALL', 'en_US.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('MANAGERPID', '2170'), ('SYSTEMD_EXEC_PID', '2696'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '75588'), ('COLCON_PREFIX_PATH', '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'javier-rojas'), ('JOURNAL_STREAM', '8:17075'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'javier-rojas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/javier-rojas/miniconda3/condabin:/home/javier-rojas/.local/bin:/home/javier-rojas/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/JaRo-Linux:@/tmp/.ICE-unix/2457,unix/JaRo-Linux:/tmp/.ICE-unix/2457'), ('INVOCATION_ID', '9440130e48df4f689b25b739bf172b67'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init:/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/javier-rojas/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bbaf030e-10db-4c2b-afde-dff560ab7f9d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/javier-rojas/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/vision_pick_init:/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place:/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init:/opt/ros/humble')]), 'shell': False}
+[2.702700] (-) TimerEvent: {}
+[2.752106] (ur_pick_and_place) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/go_home_node.dir/src/go_home_node.cpp.o\x1b[0m\n'}
+[2.752681] (ur_pick_and_place) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o\x1b[0m\n'}
+[2.752870] (ur_pick_and_place) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/add_box_obstacle.dir/src/add_box_obstacle.cpp.o\x1b[0m\n'}
+[2.802808] (-) TimerEvent: {}
+[2.903165] (-) TimerEvent: {}
+[3.003464] (-) TimerEvent: {}
+[3.103793] (-) TimerEvent: {}
+[3.204133] (-) TimerEvent: {}
+[3.304477] (-) TimerEvent: {}
+[3.404835] (-) TimerEvent: {}
+[3.505199] (-) TimerEvent: {}
+[3.605535] (-) TimerEvent: {}
+[3.705851] (-) TimerEvent: {}
+[3.806165] (-) TimerEvent: {}
+[3.906506] (-) TimerEvent: {}
+[4.006870] (-) TimerEvent: {}
+[4.107181] (-) TimerEvent: {}
+[4.207577] (-) TimerEvent: {}
+[4.307914] (-) TimerEvent: {}
+[4.408268] (-) TimerEvent: {}
+[4.508676] (-) TimerEvent: {}
+[4.609006] (-) TimerEvent: {}
+[4.709279] (-) TimerEvent: {}
+[4.809548] (-) TimerEvent: {}
+[4.909806] (-) TimerEvent: {}
+[5.010116] (-) TimerEvent: {}
+[5.110373] (-) TimerEvent: {}
+[5.210831] (-) TimerEvent: {}
+[5.311171] (-) TimerEvent: {}
+[5.411623] (-) TimerEvent: {}
+[5.512025] (-) TimerEvent: {}
+[5.612364] (-) TimerEvent: {}
+[5.712657] (-) TimerEvent: {}
+[5.812910] (-) TimerEvent: {}
+[5.913172] (-) TimerEvent: {}
+[6.013497] (-) TimerEvent: {}
+[6.113823] (-) TimerEvent: {}
+[6.214101] (-) TimerEvent: {}
+[6.314394] (-) TimerEvent: {}
+[6.414647] (-) TimerEvent: {}
+[6.514894] (-) TimerEvent: {}
+[6.615161] (-) TimerEvent: {}
+[6.715399] (-) TimerEvent: {}
+[6.815654] (-) TimerEvent: {}
+[6.915889] (-) TimerEvent: {}
+[7.016166] (-) TimerEvent: {}
+[7.116429] (-) TimerEvent: {}
+[7.216706] (-) TimerEvent: {}
+[7.316946] (-) TimerEvent: {}
+[7.417190] (-) TimerEvent: {}
+[7.517548] (-) TimerEvent: {}
+[7.617822] (-) TimerEvent: {}
+[7.718091] (-) TimerEvent: {}
+[7.818356] (-) TimerEvent: {}
+[7.918628] (-) TimerEvent: {}
+[8.018904] (-) TimerEvent: {}
+[8.119207] (-) TimerEvent: {}
+[8.219485] (-) TimerEvent: {}
+[8.319804] (-) TimerEvent: {}
+[8.420111] (-) TimerEvent: {}
+[8.520401] (-) TimerEvent: {}
+[8.620708] (-) TimerEvent: {}
+[8.720978] (-) TimerEvent: {}
+[8.821225] (-) TimerEvent: {}
+[8.921562] (-) TimerEvent: {}
+[9.021895] (-) TimerEvent: {}
+[9.122215] (-) TimerEvent: {}
+[9.222548] (-) TimerEvent: {}
+[9.322908] (-) TimerEvent: {}
+[9.423238] (-) TimerEvent: {}
+[9.523552] (-) TimerEvent: {}
+[9.623913] (-) TimerEvent: {}
+[9.724264] (-) TimerEvent: {}
+[9.824580] (-) TimerEvent: {}
+[9.924937] (-) TimerEvent: {}
+[10.025257] (-) TimerEvent: {}
+[10.125561] (-) TimerEvent: {}
+[10.225872] (-) TimerEvent: {}
+[10.326195] (-) TimerEvent: {}
+[10.426528] (-) TimerEvent: {}
+[10.526900] (-) TimerEvent: {}
+[10.627412] (-) TimerEvent: {}
+[10.727707] (-) TimerEvent: {}
+[10.827968] (-) TimerEvent: {}
+[10.877792] (ur_pick_and_place) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable add_box_obstacle\x1b[0m\n'}
+[10.928083] (-) TimerEvent: {}
+[11.028442] (-) TimerEvent: {}
+[11.128788] (-) TimerEvent: {}
+[11.197286] (ur_pick_and_place) StdoutLine: {'line': b'[ 66%] Built target add_box_obstacle\n'}
+[11.228887] (-) TimerEvent: {}
+[11.329168] (-) TimerEvent: {}
+[11.429473] (-) TimerEvent: {}
+[11.529799] (-) TimerEvent: {}
+[11.630109] (-) TimerEvent: {}
+[11.730504] (-) TimerEvent: {}
+[11.830825] (-) TimerEvent: {}
+[11.931140] (-) TimerEvent: {}
+[12.031580] (-) TimerEvent: {}
+[12.131939] (-) TimerEvent: {}
+[12.232279] (-) TimerEvent: {}
+[12.332573] (-) TimerEvent: {}
+[12.432908] (-) TimerEvent: {}
+[12.533244] (-) TimerEvent: {}
+[12.633543] (-) TimerEvent: {}
+[12.733915] (-) TimerEvent: {}
+[12.834218] (-) TimerEvent: {}
+[12.934587] (-) TimerEvent: {}
+[13.034921] (-) TimerEvent: {}
+[13.135214] (-) TimerEvent: {}
+[13.235529] (-) TimerEvent: {}
+[13.335857] (-) TimerEvent: {}
+[13.436253] (-) TimerEvent: {}
+[13.536575] (-) TimerEvent: {}
+[13.636922] (-) TimerEvent: {}
+[13.737209] (-) TimerEvent: {}
+[13.837576] (-) TimerEvent: {}
+[13.937886] (-) TimerEvent: {}
+[14.038151] (-) TimerEvent: {}
+[14.138434] (-) TimerEvent: {}
+[14.238721] (-) TimerEvent: {}
+[14.339042] (-) TimerEvent: {}
+[14.439475] (-) TimerEvent: {}
+[14.539796] (-) TimerEvent: {}
+[14.640075] (-) TimerEvent: {}
+[14.740402] (-) TimerEvent: {}
+[14.840703] (-) TimerEvent: {}
+[14.940995] (-) TimerEvent: {}
+[15.041354] (-) TimerEvent: {}
+[15.141643] (-) TimerEvent: {}
+[15.241976] (-) TimerEvent: {}
+[15.342317] (-) TimerEvent: {}
+[15.442615] (-) TimerEvent: {}
+[15.542984] (-) TimerEvent: {}
+[15.643297] (-) TimerEvent: {}
+[15.743581] (-) TimerEvent: {}
+[15.843887] (-) TimerEvent: {}
+[15.944163] (-) TimerEvent: {}
+[16.044441] (-) TimerEvent: {}
+[16.144711] (-) TimerEvent: {}
+[16.245021] (-) TimerEvent: {}
+[16.345377] (-) TimerEvent: {}
+[16.445667] (-) TimerEvent: {}
+[16.545920] (-) TimerEvent: {}
+[16.646384] (-) TimerEvent: {}
+[16.746697] (-) TimerEvent: {}
+[16.847023] (-) TimerEvent: {}
+[16.947290] (-) TimerEvent: {}
+[17.047542] (-) TimerEvent: {}
+[17.147832] (-) TimerEvent: {}
+[17.248094] (-) TimerEvent: {}
+[17.348391] (-) TimerEvent: {}
+[17.448726] (-) TimerEvent: {}
+[17.549067] (-) TimerEvent: {}
+[17.649353] (-) TimerEvent: {}
+[17.749722] (-) TimerEvent: {}
+[17.850045] (-) TimerEvent: {}
+[17.950366] (-) TimerEvent: {}
+[18.050692] (-) TimerEvent: {}
+[18.151907] (-) TimerEvent: {}
+[18.252298] (-) TimerEvent: {}
+[18.263565] (ur_pick_and_place) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable go_home_node\x1b[0m\n'}
+[18.352386] (-) TimerEvent: {}
+[18.452696] (-) TimerEvent: {}
+[18.553001] (-) TimerEvent: {}
+[18.563608] (ur_pick_and_place) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pick_and_place\x1b[0m\n'}
+[18.653117] (-) TimerEvent: {}
+[18.753416] (-) TimerEvent: {}
+[18.853693] (-) TimerEvent: {}
+[18.954030] (-) TimerEvent: {}
+[19.054390] (-) TimerEvent: {}
+[19.154717] (-) TimerEvent: {}
+[19.187236] (ur_pick_and_place) StdoutLine: {'line': b'[100%] Built target go_home_node\n'}
+[19.254803] (-) TimerEvent: {}
+[19.355049] (-) TimerEvent: {}
+[19.455342] (-) TimerEvent: {}
+[19.465301] (ur_pick_and_place) StdoutLine: {'line': b'[100%] Built target pick_and_place\n'}
+[19.480133] (ur_pick_and_place) CommandEnded: {'returncode': 0}
+[19.525571] (ur_pick_and_place) JobProgress: {'identifier': 'ur_pick_and_place', 'progress': 'install'}
+[19.537599] (ur_pick_and_place) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place'], 'cwd': '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'javier-rojas'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/javier-rojas/miniconda3/envs/DemoExpoGDL/lib/python3.10/site-packages/nvidia/cublas/lib:/home/javier-rojas/miniconda3/envs/DemoExpoGDL/lib/python3.10/site-packages/nvidia/cufft/lib:/home/javier-rojas/miniconda3/envs/DemoExpoGDL/lib/python3.10/site-packages/nvidia/cuda_runtime/lib:/home/javier-rojas/miniconda3/envs/DemoExpoGDL/lib/python3.10/site-packages/nvidia/cudnn/lib:/home/javier-rojas/miniconda3/envs/DemoExpoGDL/lib/python3.10/site-packages/nvidia/cuda_nvrtc/lib'), ('HOME', '/home/javier-rojas'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/javier-rojas'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ALL', 'en_US.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('MANAGERPID', '2170'), ('SYSTEMD_EXEC_PID', '2696'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '75588'), ('COLCON_PREFIX_PATH', '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'javier-rojas'), ('JOURNAL_STREAM', '8:17075'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'javier-rojas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/javier-rojas/miniconda3/condabin:/home/javier-rojas/.local/bin:/home/javier-rojas/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/JaRo-Linux:@/tmp/.ICE-unix/2457,unix/JaRo-Linux:/tmp/.ICE-unix/2457'), ('INVOCATION_ID', '9440130e48df4f689b25b739bf172b67'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init:/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/javier-rojas/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bbaf030e-10db-4c2b-afde-dff560ab7f9d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/ur_pick_and_place'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/javier-rojas/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/vision_pick_init:/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place:/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init:/opt/ros/humble')]), 'shell': False}
+[19.547470] (ur_pick_and_place) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.547977] (ur_pick_and_place) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[19.548375] (ur_pick_and_place) StdoutLine: {'line': b'-- Symlinking: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place/lib/ur_pick_and_place/pick_and_place\n'}
+[19.555462] (-) TimerEvent: {}
+[19.559944] (ur_pick_and_place) StdoutLine: {'line': b'-- Symlinking: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place/lib/ur_pick_and_place/go_home_node\n'}
+[19.571642] (ur_pick_and_place) StdoutLine: {'line': b'-- Symlinking: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place/lib/ur_pick_and_place/add_box_obstacle\n'}
+[19.582714] (ur_pick_and_place) StdoutLine: {'line': b'-- Symlinking: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ament_index/resource_index/package_run_dependencies/ur_pick_and_place\n'}
+[19.594727] (ur_pick_and_place) StdoutLine: {'line': b'-- Symlinking: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ament_index/resource_index/parent_prefix_path/ur_pick_and_place\n'}
+[19.606994] (ur_pick_and_place) StdoutLine: {'line': b'-- Symlinking: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/ament_prefix_path.sh\n'}
+[19.618297] (ur_pick_and_place) StdoutLine: {'line': b'-- Symlinking: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/ament_prefix_path.dsv\n'}
+[19.629983] (ur_pick_and_place) StdoutLine: {'line': b'-- Symlinking: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/path.sh\n'}
+[19.641482] (ur_pick_and_place) StdoutLine: {'line': b'-- Symlinking: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/environment/path.dsv\n'}
+[19.652727] (ur_pick_and_place) StdoutLine: {'line': b'-- Symlinking: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/local_setup.bash\n'}
+[19.655562] (-) TimerEvent: {}
+[19.664526] (ur_pick_and_place) StdoutLine: {'line': b'-- Symlinking: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/local_setup.sh\n'}
+[19.675772] (ur_pick_and_place) StdoutLine: {'line': b'-- Symlinking: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/local_setup.zsh\n'}
+[19.688434] (ur_pick_and_place) StdoutLine: {'line': b'-- Symlinking: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/local_setup.dsv\n'}
+[19.699600] (ur_pick_and_place) StdoutLine: {'line': b'-- Symlinking: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/package.dsv\n'}
+[19.710753] (ur_pick_and_place) StdoutLine: {'line': b'-- Symlinking: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ament_index/resource_index/packages/ur_pick_and_place\n'}
+[19.722701] (ur_pick_and_place) StdoutLine: {'line': b'-- Symlinking: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/cmake/ur_pick_and_placeConfig.cmake\n'}
+[19.733763] (ur_pick_and_place) StdoutLine: {'line': b'-- Symlinking: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/cmake/ur_pick_and_placeConfig-version.cmake\n'}
+[19.745101] (ur_pick_and_place) StdoutLine: {'line': b'-- Symlinking: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/package.xml\n'}
+[19.755688] (-) TimerEvent: {}
+[19.756829] (ur_pick_and_place) StdoutLine: {'line': b'-- Installing: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/launch\n'}
+[19.757033] (ur_pick_and_place) StdoutLine: {'line': b'-- Installing: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/ur_pick_and_place/share/ur_pick_and_place/launch/initialization.launch.py\n'}
+[19.759764] (ur_pick_and_place) CommandEnded: {'returncode': 0}
+[19.818338] (ur_pick_and_place) JobEnded: {'identifier': 'ur_pick_and_place', 'rc': 0}
+[19.818829] (-) EventReactorShutdown: {}

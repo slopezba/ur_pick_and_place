@@ -55,6 +55,3 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
-
-# uninstall files installed using the symlink install functions
-include("/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/robot_gdl_description/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")

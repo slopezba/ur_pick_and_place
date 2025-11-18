@@ -1,1 +1,1 @@
-rclcpp;geometry_msgs;moveit_ros_planning_interface;moveit_core;moveit_ros_planning;ament_lint_auto;ament_lint_common
+rclcpp;geometry_msgs;moveit_ros_planning_interface;moveit_core;moveit_ros_planning;robot_gdl_description;ament_lint_auto;ament_lint_common

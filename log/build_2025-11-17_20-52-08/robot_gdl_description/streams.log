@@ -1,0 +1,30 @@
+[0.021s] Invoking command in '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/robot_gdl_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init:/opt/ros/humble /usr/bin/cmake --build /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/robot_gdl_description -- -j8 -l8
+[0.399s] Invoked command in '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/robot_gdl_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init:/opt/ros/humble /usr/bin/cmake --build /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/robot_gdl_description -- -j8 -l8
+[0.445s] Invoking command in '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/robot_gdl_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init:/opt/ros/humble /usr/bin/cmake --install /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/robot_gdl_description
+[0.457s] -- Install configuration: ""
+[0.457s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/robot_gdl_description/urdf
+[0.457s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/robot_gdl_description/urdf/robot_gdl.urdf.xacro
+[0.457s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/robot_gdl_description/urdf/robot_gdl_macro.xacro
+[0.457s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/robot_gdl_description/launch
+[0.457s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/robot_gdl_description/launch/view_robot.launch.py
+[0.458s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/robot_gdl_description/launch/display.launch.py
+[0.458s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/robot_gdl_description/config
+[0.458s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/robot_gdl_description/config/robot_description.png
+[0.458s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/robot_gdl_description/rviz
+[0.458s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/robot_gdl_description/rviz/view_robot.rviz
+[0.458s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/ament_index/resource_index/package_run_dependencies/robot_gdl_description
+[0.458s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/ament_index/resource_index/parent_prefix_path/robot_gdl_description
+[0.459s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/robot_gdl_description/environment/ament_prefix_path.sh
+[0.459s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/robot_gdl_description/environment/ament_prefix_path.dsv
+[0.459s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/robot_gdl_description/environment/path.sh
+[0.459s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/robot_gdl_description/environment/path.dsv
+[0.459s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/robot_gdl_description/local_setup.bash
+[0.459s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/robot_gdl_description/local_setup.sh
+[0.459s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/robot_gdl_description/local_setup.zsh
+[0.460s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/robot_gdl_description/local_setup.dsv
+[0.460s] -- Installing: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/robot_gdl_description/package.dsv
+[0.460s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/ament_index/resource_index/packages/robot_gdl_description
+[0.460s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/robot_gdl_description/cmake/robot_gdl_descriptionConfig.cmake
+[0.460s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/robot_gdl_description/cmake/robot_gdl_descriptionConfig-version.cmake
+[0.461s] -- Up-to-date: /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/robot_gdl_description/share/robot_gdl_description/package.xml
+[0.462s] Invoked command in '/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/robot_gdl_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/install/vision_pick_init:/opt/ros/humble /usr/bin/cmake --install /home/javier-rojas/Documents/Doctorado/3er_Semestre/ur_pick_and_place/build/robot_gdl_description

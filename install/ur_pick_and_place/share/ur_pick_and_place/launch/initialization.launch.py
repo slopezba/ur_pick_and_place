@@ -3,6 +3,8 @@ from launch import LaunchDescription
 
 # IncludeLaunchDescription allows us to nest other launch files (e.g., bring up MoveIt)
 from launch.actions import IncludeLaunchDescription, ExecuteProcess, TimerAction
+from launch.substitutions import Command, PathJoinSubstitution
+from launch_ros.substitutions import FindPackageShare
 
 # This tells ROS 2 how to load another launch file written in Python
 from launch.launch_description_sources import PythonLaunchDescriptionSource
@@ -18,8 +20,34 @@ import os  # for handling file paths
 
 # Every ROS 2 launch file must define this function; the launch system calls it automatically
 def generate_launch_description():
+
+    # Path to robot_gdl_description share directory
+    robot_desc_share = get_package_share_directory('robot_gdl_description')
+
+    # Path to your URDF/Xacro
+    urdf_file = os.path.join(robot_desc_share, 'urdf', 'robot_gdl.urdf.xacro')
+
+
+    # Example: publish robot_description using that URDF/Xacro
+    robot_state_publisher = Node(
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        name='robot_state_publisher',
+        output='screen',
+        parameters=[{
+            # If it is xacro:
+            'robot_description': Command(['xacro ', urdf_file])
+            # If it is a plain URDF, use open(urdf_file).read() instead of Command(...)
+        }]
+    )
+
+
     # Get the absolute path to the ur_robot_driver package's share directory
     pkg_path = get_package_share_directory('ur_robot_driver')
+
+    custom_description = os.path.join(
+        robot_desc_share, 'urdf', 'robot_gdl.urdf.xacro'  # adjust filename
+    )
     
     ur_robot_driver_launch = IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
@@ -28,7 +56,9 @@ def generate_launch_description():
             launch_arguments={
                 'ur_type' : 'ur5e',
                 'robot_ip' : '172.17.0.2',            # Modify if different robot ip
-                'launch_rviz' : 'false'
+                'launch_rviz' : 'false',
+                'description_package': 'robot_gdl_description',
+                'description_file': 'robot_gdl.urdf.xacro',
             }.items()
         )
 
@@ -86,6 +116,7 @@ def generate_launch_description():
     # 1) launch MoveIt (the include)
     # 2) then launch your custom node
     return LaunchDescription([
+        robot_state_publisher,
         ur_robot_driver_launch,
         moveit_launch,
         add_box,

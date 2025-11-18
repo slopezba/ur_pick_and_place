@@ -1,3 +1,0 @@
-[console_scripts]
-vision_node = vision_pick_init.vision_node:main
-
